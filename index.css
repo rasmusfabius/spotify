@@ -1,0 +1,51 @@
+.container {
+  height: 92.8vh;
+}
+
+.bg-main {
+  background: rgb(60, 119, 145);
+  background: linear-gradient(90deg, rgba(60, 119, 145, 1) 0%, rgba(33, 47, 74, 1) 65%);
+}
+#logo-top {
+  width: 100px;
+  height: 50px;
+}
+
+.sidebar {
+  background-color: rgb(19, 19, 24);
+}
+
+a {
+  color: white;
+}
+.nav-link {
+  color: white !important;
+}
+.navbar {
+  font-size: 10px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 3px solid #1ed768;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.middel {
+  padding-bottom: 340px;
+}
+
+.btn {
+  width: 200px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.fas {
+  color: white;
+}

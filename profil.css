@@ -1,0 +1,73 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(34, 34, 99, 1) 28%, rgba(1, 20, 59, 1) 65%);
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  padding-right: 25px;
+  width: 120px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #1ed768;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 40px;
+  padding-left: 15px;
+}
+
+.fa {
+  color: white;
+}
+
+.fa-user-circle-o {
+  padding-right: 10px;
+}
+
+.sidebar {
+  height: 400px;
+  background-color: #222326;
+}
+
+.content {
+  height: 400px;
+  background-color: white;
+}
+
+.navbar > .container,
+.navbar > .container-fluid {
+  justify-content: flex-end !important;
+}
+
+.footer {
+  background-color: black;
+}
+
+.nav-link {
+  padding-left: 0;
+  text-decoration: none;
+  color: white;
+}
+
+h6 {
+  color: grey;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.footer-icon {
+  background: grey;
+  border-radius: 40%;
+  width: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
